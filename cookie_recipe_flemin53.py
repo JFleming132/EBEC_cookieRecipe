@@ -28,7 +28,7 @@ Academic Integrity Statement:
 
 
 def main():
-    C = float(input("How many cookies do you want to make? "))
+    C = int(input("How many cookies do you want to make? "))
     S = C * (1.75/48) #This line multiplies desired cookies by the ratio of cups of sugar to cookies for an exact float
     B = C * (1/48) #This formula multiplies desired cookies by the ratio of cups of butter to cookes
     F = C * (2.5/48) #And obviously this is for flour
