@@ -33,10 +33,10 @@ def main():
     B = C * (1/48) #This formula multiplies desired cookies by the ratio of cups of butter to cookes
     F = C * (2.5/48) #And obviously this is for flour
     print (
-    'To make ', C, ' cookies, you will need:\n',
-    format(S,'7.2f'), " cups of sugar\n",
-    format(B,'7.2f'), " cups of butter\n",
-    format(F,'7.2f'), " cups of flour")
+    'To make', C, 'cookies, you will need:\n',
+    format(S,'7.2f'), "cups of sugar\n",
+    format(B,'7.2f'), "cups of butter\n",
+    format(F,'7.2f'), "cups of flour")
 
 if __name__ == '__main__':
     main()
